@@ -1,0 +1,116 @@
+.executive_card{
+     width: 70%;
+    height: 400px;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.executive_image .box{
+   padding: 180px;
+   border: 1px solid #007bff;
+   position: relative;
+   
+ }
+ .exbox{
+    border: 1px solid #007bff;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+   
+ }
+ .e1{
+    top: -10px;
+    left: -10px;
+    border-right: rgba(255, 255, 255, 0.322);
+    border-bottom: rgba(255, 255, 255, 0.322);
+ }
+
+ .e2{
+    right: -10px;
+    top: -10px;
+    border-left: rgba(255, 255, 255, 0.322);
+    border-bottom: rgba(255, 255, 255, 0.322);
+  
+ }
+
+ 
+ .e3{
+    bottom: -10px;
+    right: -10px;
+    border-left: rgba(255, 255, 255, 0.322);
+    border-top: rgba(255, 255, 255, 0.322);
+  
+ }
+
+ .e4{
+    bottom: -10px;
+    left: -10px;
+    border-right: rgba(255, 255, 255, 0.322);
+    border-top: rgba(255, 255, 255, 0.322);
+  
+ }
+
+ .executive_info{
+    padding-left:  30px;
+    padding-right:  30px;
+     justify-content: space-around;
+    text-align: center;
+  }
+
+ .executive_info .socials{
+    width: 150px;
+    height: 40px;
+    border: 1px solid;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ }
+ .executive_info p{
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: 200;
+ }
+ .executive_info h3{
+    font-size: 40px;
+     color: #222;
+    font-weight: 900;
+  }
+ .executive_info span{
+    font-size: 13px;
+    width: 80%;
+ }
+ .executive_info button{
+    padding: 10px;
+    background: rgba(32, 32, 255, 0.844);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: none;
+ }
+ 
+
+ @media (max-width: 900px){
+    .executive_card{
+        width: 90%;
+        grid-template-columns: 1fr;
+         height: max-content;
+        margin-top: 5rem;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 5px 1px rgba(128, 128, 128, 0.17);
+    }
+    .executive_image .box{
+      }
+      .executive_info button, .executive_info span
+      {
+        margin-top: 2rem;
+      }
+  }

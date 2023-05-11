@@ -1,0 +1,16 @@
+footer{
+    width: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 20px;
+      padding-right: 150px;
+      cursor: pointer;
+}
+.f_left{
+    display: flex;
+ }
+ .f_left h6{
+    padding-left: 20px;
+    font-size: 16px;
+ }

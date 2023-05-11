@@ -1,0 +1,29 @@
+.sub_banner {
+  
+    padding-top: 50px;
+    background-color:rgb(164, 216, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+  }
+  
+  .sub_banner__text {
+    color: rgb(72, 72, 232);
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .banner__link {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  @media (max-width: 700px){
+    .sub_banner{
+      padding-top: 5rem;
+    }
+  }

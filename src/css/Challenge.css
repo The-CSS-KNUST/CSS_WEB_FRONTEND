@@ -1,0 +1,132 @@
+.challenge {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-column,
+  .right-column {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+  }
+  
+  .left-column {
+    margin-right: 10%;
+    padding-top: 2rem;
+   }
+  
+  .right-column {
+    margin-left: 10%;
+    padding-top: 2rem;
+  }
+
+  .middle-column {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     padding-top: 5rem;
+    text-align: center;
+   }
+  .middle-column h1{
+    font-size: 3rem;
+    z-index: 4;
+    color: #007bff;
+  } 
+  .middle-column h3{
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: grey;
+    margin: -5px;
+    z-index: 4;
+  }
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .circle-container .bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .blue {
+    background: url(../assets/img1.jpg);
+    
+   }
+  
+   .green {
+    background: url(../assets/img2.jpg);
+    margin-left: 120px;
+  }
+  
+  .red {
+    background: url(../assets/img3.jpg);
+    margin-left: 290px;
+  }
+
+
+  .gr{
+    background-color: green;
+    margin-left: -120px;
+  }
+  
+  .rr {
+    background-color: red;
+    margin-left: -290px;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .challenge-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 15px 100px 15px 100px;
+    margin-top: 60px;
+    z-index: 4;
+  }
+  
+  .challenge-button:hover {
+    background-color: dark#007bff;
+  }
+  
+  @media (max-width: 700px){
+    .middle-column{
+      margin-left: -2rem;
+     }
+    .red{
+      display: none;
+    }
+    
+  }

@@ -1,0 +1,130 @@
+.acccount_container{
+  height: calc(100vh + 20rem);
+  width: 100vw;
+     background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    background: url(../assets/AI.jpg);
+   
+}
+
+.account{
+    box-shadow: 0 0 25px 1px #1d344d23;
+    padding: 1rem;
+     margin: 10vw;
+    border-radius: 20px;
+    padding-top: 5rem;
+    padding-bottom: 30px;
+    padding-right: 30vw;
+    color: #222;
+   
+
+ }
+
+ .account h6{
+    font-size: 17px;
+    font-weight: 300;
+    color: #007bff;
+
+ }
+
+ .account h3{
+    font-size: 35px;
+    color: #007bff;
+
+  }
+
+  .account span{
+    font-size: 12px;
+  }
+  .account form{
+    margin-top: 2rem;
+   }
+  .input{
+    height: 50px;
+    width: 40%;
+     border-radius: 15px;
+    padding-left: 20px;
+    border: 2px solid white;
+     color: #2a1b3a;
+     box-shadow: 0 0 25px 1px #1d344d23;
+    }
+  .input input, .input select{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+  }
+  .input select{
+    padding: 0;
+     }
+  .duo{
+    width: 80%;
+    display: flex;
+     justify-content: space-between;
+     margin-top: 2rem;
+  }
+
+  .input .label{
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .fw{
+    margin-top: 2rem;
+  }
+  .fw .input{
+    width: 100%;
+  }
+  .account .submit{
+    display: flex;
+    justify-content: space-between;
+     width: 80%;
+   }
+
+  
+  .account button{
+    width: 45%;
+    margin-top: 2rem;
+    background: #007bff;
+    color: white;
+    padding: 15px 0;
+    border-radius: 15px;
+    border: none;
+
+
+  }
+  button.signin{
+    background: grey;
+    color: white;
+   }
+
+   @media (max-width: 700px){
+    .account{
+      margin: 0;
+      height: 100%;
+       overflow-y: auto;
+      overflow-x: hidden;
+      box-shadow: 0 0 0 0 ;
+  
+     }
+     .account .input{
+
+      }
+     .duo{
+       width: 95%;
+      
+     }
+     .account .sign_up{
+       width: 90vw;
+      margin-top: 15vh;
+     }
+     .acccount_container{
+          height: max-content;
+          border: 1px solid;
+    }
+    
+
+   }

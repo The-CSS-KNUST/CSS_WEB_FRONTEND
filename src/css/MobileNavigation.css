@@ -1,0 +1,147 @@
+.toggle-button{
+  display: none;
+}
+button i{
+  background: red;
+  color: #007bff;
+  
+}
+@media (max-width: 700px){
+
+  .menu_icon{
+    font-size: 50px;
+    color: #007bff;
+  }
+  
+.mobile-navigation {
+  position: fixed;
+   top: 0;
+  right: 0;
+  height: 100vh;
+  width: 0vw;
+  background-color: transparent;
+  transition: background-color 2s;
+  transition: .2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  overflow: hidden;
+
+ }
+
+.mobile-navigation.open {
+  width: 70vw;
+  z-index: 10;
+
+   background-color: rgba(255, 255, 255, 0.948);
+  transition: background-color 0.5s;
+  transition: .1s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
+}
+
+.mobile-navigation-header {
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.toggle-button {
+     
+    display: unset;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  z-index: 50;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-items {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-items a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.nav-items a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.toggle-button{
+  border: none;
+  
+ }
+
+ .toggle-button .sp{
+  height: 3px;
+  width: 40px;
+  background: #007bff;
+  border-radius: 10px;
+  transition: .3s ease;
+
+
+ }
+
+ .toggle-button .sp1{
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+   
+
+}
+
+
+.toggle-button .sp2{
+   
+  margin-top: 10px;
+}
+
+
+
+.toggle-button .sp3{
+ 
+  margin-top: 10px;
+}
+.toggle-button.active .sp3{
+  display: none;
+}
+.toggle-button.active .sp1{
+  transform: rotate(45deg);
+   margin-top: 20px;
+}
+.toggle-button.active .sp2{
+  transform: rotate(-45deg);
+  margin-top: -13px;
+}
+
+
+
+}

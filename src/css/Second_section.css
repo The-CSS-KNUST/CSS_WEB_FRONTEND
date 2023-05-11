@@ -1,0 +1,33 @@
+.s_s{
+    background-color:#d3e0ff;
+}
+
+.header{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+h4{
+    font-size: 34px;
+    color: #3366ff;
+ }
+.header .view_all{
+    position: absolute;
+    right: 100px;
+    background: #3366ff;
+    color: white;
+    border: none;
+    padding: 8px 20px 8px 20px;
+}
+
+@media (max-width: 700px){
+    .s_s{
+        margin-top: 27rem;
+
+    }
+    .header button{
+        display: none;
+    }
+ 
+}

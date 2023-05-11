@@ -1,0 +1,27 @@
+.connect-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .connect-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: grey;
+  }
+  
+  .connect-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .connect-list li{
+    margin-top: 20px;
+  }
+  
+  .connect-list li:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
+  

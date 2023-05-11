@@ -1,0 +1,18 @@
+.no_challenge{
+    width: 100%;
+    padding-top: 20vh;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.no_challenge img{
+    width: 200px;
+}
+.no_challenge .text{
+    margin-top: 20px;
+    font-size: 12px;
+}
