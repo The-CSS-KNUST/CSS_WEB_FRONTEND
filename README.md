@@ -1,11 +1,11 @@
 ├───pages
 ├───public
-│   └───assets
+│ └───assets
 └───src
-    ├───assets
-    ├───components
-    │   └───Executives
-    ├───css
-    │   └───executive
-    ├───javascript
-    └───pages
+├───assets
+├───components
+│└───Executives
+├───css
+│ └───executive
+├───javascript
+└───pages
